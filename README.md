@@ -3,7 +3,7 @@
 #### Please copy paste below code 
 ```
 module "dev" {
-    source = "../"
+    source = "farrukh90/keypair/aws"
     region = "us-east-1"
     key_name_prefix = "dev-"
     key_location = "~/.ssh/id_rsa.pub"
